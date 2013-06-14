@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = "rack_maintenance"
-  s.version         = "0.1.0"
+  s.version         = "0.1.1"
   s.platform        = Gem::Platform::RUBY
   s.summary         = "Rack middleware to show maintenance page"
   s.license         = "MIT"
@@ -11,7 +11,7 @@ Also see https://github.com/borot/rack_maintenance.
 EOF
 
   s.files           = Dir['{lib/**/*, spec/*}'] +
-                        %w(rack_maintenance.gemspec )
+                        %w(rack_maintenance.gemspec README.md)
   s.require_path    = 'lib'
 
   s.author          = 'Masato Ishimoto'
